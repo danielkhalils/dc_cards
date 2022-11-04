@@ -1,0 +1,203 @@
+@charset "utf-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    padding-top: 10;
+}
+
+.indice {
+    background-image: url("../img/fundo.jpg");
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50;
+}
+
+.logodc {
+    height: 60px;
+}
+
+.box {
+    width: 350px;
+    height: 610px;
+    border-radius: 10px;
+    background-color: #0D2330;
+    box-shadow: 2px 10px 12px rgba(0,0,0,0,5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin: 20px 10px;
+    padding-top: 10px;
+}
+
+.model {
+    height: 350px;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+}
+
+.details p {
+    font-family: Calibri;
+    font-weight: bold;
+    color: #6a6a74;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+.dcform {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .dcform {
+    color: #BABEBD;
+    transition: all ease 0.5s;
+}
+
+
+.dcformsup {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .dcformsup {
+    color: #a4152c;
+    transition: all ease 0.5s;
+}
+
+.dcformbat {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .dcformbat {
+    color: #8C8C8C;
+    transition: all ease 0.5s;
+}
+
+.dcformwond {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .dcformwond {
+    color: #A6691F;
+    transition: all ease 0.5s;
+}
+
+.dcformgl {
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .dcformgl {
+    color: #1F8C26;
+    transition: all ease 0.5s;
+}
+
+.dcformaq{
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .dcformaq {
+    color: #A6691F;
+    text-shadow: 0 0 6px #010326;
+    transition: all ease 0.5s;
+}
+
+.dcformfls{
+    color: #32323e;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+.box:hover .dcformfls {
+    color: #F2A30F;
+    text-shadow: 0 0 6px #010326;
+    transition: all ease 0.5s;
+}
+
+.logo {
+    height: 60px;
+}
+
+.box:hover {
+    background-color: #17171d;
+    transform-style: preserve-3d;
+    transform: scale(1.02);
+    transition: all ease 0.3s;
+}
+
+.box:hover .marvel {
+    color: #c0292b;
+    transition: all ease 0.5s;
+}
+
+/*-- responsive for mobile fone --*/
+@media(max-width:720px){
+    
+    .item-a{
+        justify-content: center;
+        margin-left: 35px;
+    }
+
+    .box{
+        width: 94%;
+        height: 600px;
+    }
+    .model{
+        height: 250px;
+    }
+    .details p{
+        font-size: 15px;
+        text-align: justify;
+        justify-content: center;
+        width: 260px;
+    }
+}
