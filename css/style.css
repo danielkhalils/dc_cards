@@ -21,6 +21,7 @@ a {
     height: 100vh;
     align-items: center;
     padding-top: 10;
+    background-size: cover;
 }
 
 .indice {
@@ -29,7 +30,8 @@ a {
 }
 
 .logodc {
-    height: 60px;
+    height: 80px;
+    margin-top: 20px;
 }
 
 .box {
@@ -62,27 +64,19 @@ a {
 
 .details p {
     font-family: Calibri;
+    font-size: 15px;
     font-weight: bold;
     color: #6a6a74;
-    margin-top: 20px;
     text-align: justify;
+    padding-bottom: 30px;
 }
-
-.marvel {
-    color: #32323e;
-    font-weight: bold;
-    letter-spacing: 2px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px
-}
-
 
 .dcsuperman {
     color: #32323e;
     font-weight: bold;
     letter-spacing: 2px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .box:hover .dcsuperman {
@@ -91,12 +85,16 @@ a {
     transition: all ease 0.5s;
 }
 
+.details .logosuperman {
+    width: 60px;
+}
+
 .dcbatman {
     color: #32323e;
     font-weight: bold;
     letter-spacing: 2px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .box:hover .dcbatman {
@@ -105,12 +103,16 @@ a {
     transition: all ease 0.5s;
 }
 
+.details .logobatman {
+    width: 70px;
+}
+
 .dcwonder {
     color: #32323e;
     font-weight: bold;
     letter-spacing: 2px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .box:hover .dcwonder {
@@ -123,7 +125,7 @@ a {
     font-weight: bold;
     letter-spacing: 2px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .box:hover .dclanterna {
@@ -131,12 +133,16 @@ a {
     transition: all ease 0.5s;
 }
 
+.details .logolanterna {
+    width: 120px;
+}
+
 .dcaquaman {
     color: #32323e;
     font-weight: bold;
     letter-spacing: 2px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .box:hover .dcaquaman {
@@ -145,12 +151,17 @@ a {
     transition: all ease 0.5s;
 }
 
+.details .logoaqua {
+    width: 70px;
+    padding-top: 10px;
+}
+
 .dcflash {
     color: #32323e;
     font-weight: bold;
     letter-spacing: 2px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .box:hover .dcflash {
@@ -159,8 +170,9 @@ a {
     transition: all ease 0.5s;
 }
 
-.logo {
-    height: 60px;
+
+.details .logoflash {
+    width: 70px;
 }
 
 .box:hover {
