@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O projeto tem como objetivo apresentar alguns dos personagens do universo da DC Comics através de cartões em um carrossel de imagens. A cor do nome do personagem muda conforme o a cor mais evidente de seu traje.  
+O projeto tem como objetivo apresentar alguns dos personagens do universo da DC Comics através de cartões em um carrossel de imagens. A cor do nome do personagem muda conforme a cor mais evidente de seu traje.  
 
 [CLIQUE AQUI](https://dc-cards.vercel.app/) PARA VISUALIZAR O PROJETO!
 
